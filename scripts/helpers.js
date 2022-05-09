@@ -24,8 +24,15 @@ function getAccount() {
     return new ethers.Wallet(getEnvVariable("ACCOUNT_PRIVATE_KEY"), getProvider());
 }
 
+// Helper method for fetching a contract instance at a given address
+function getContract(contractName, hre) {
+    const account = getAccount();
+    return getContractAt(hre, contractName, getEnvVariable("NFT_CONTRACT_ADDRESS"), account);
+}
+
 module.exports = {
     getEnvVariable,
     getProvider,
     getAccount,
+    getContract,
 }
