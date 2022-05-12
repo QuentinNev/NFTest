@@ -11,7 +11,7 @@ const { ALCHEMY_KEY, ACCOUNT_PRIVATE_KEY } = process.env;
 
 module.exports = {
    solidity: "0.8.1",
-   defaultNetwork: "local",
+   defaultNetwork: "rinkeby",
    networks: {
     hardhat: {},
     local:{
