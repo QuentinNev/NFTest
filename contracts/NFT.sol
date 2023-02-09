@@ -11,7 +11,7 @@ contract NFT is ERC721 {
     // @dev Base otken URI used as a prefix by tokenURI()
     string public baseTokenURI;
 
-    constructor() ERC721("NFTest", "NFT") 
+    constructor() ERC721("Stormtroopers", "NFT") 
     {
         baseTokenURI = "";
     }

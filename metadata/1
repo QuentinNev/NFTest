@@ -1,7 +1,13 @@
 {
-    "description" : "Friendly OpenSea Creature that enjoys long swims in the ocean.",
-    "external_url" : "https://example.com/?token_id=1",
-    "image" : "https://bafybeiaxbhdgnepgwre6udwlkucszgzxa3b2z25m7aioya4vnsqztszbxy.ipfs.dweb.link/images/1.gif",
-    "name" : "TEST",
-    "animation_url" : "http://206.81.21.145/NFTest/"
- }
+    "name": "Stormtrooper",
+    "description": "Pew pew pew!",
+    "external_url": "",
+    "image": "https://www.sideshow.com/storage/product-images/400077/stormtrooper_star-wars_square.jpg",
+    "animation_url": "https://smartverse.fr/Stormtroopers/",
+    "attributes": [
+        {
+            "trait_type": "Aim",
+            "value": "Poor"
+        }
+    ]
+}

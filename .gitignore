@@ -3,3 +3,7 @@ node_modules/
 .env copy
 cache/
 artifacts/
+metadata/
+images/
+images.car
+metadata.car

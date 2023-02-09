@@ -15,7 +15,7 @@ function getEnvVariable(key, defaultValue) {
 
 // Helper method for fetching a connection provider to the Ethereum network
 function getProvider() {
-    return ethers.getDefaultProvider(getEnvVariable("NETWORK", "local"), {
+    return ethers.getDefaultProvider(getEnvVariable("NETWORK", "mumbai"), {
         alchemy: getEnvVariable("ALCHEMY_KEY"),
     });
 }
